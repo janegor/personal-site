@@ -167,8 +167,9 @@ div.col {
   font-weight: bold;
 }
 
-.resume-desc {
+ul.resume-desc {
   margin-left: 30px;
+  margin-top: -10px;
 }
 
 #download-link {
