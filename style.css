@@ -2,6 +2,7 @@
 
 * {
   font-family: "Avenir";
+  /* font-family: Helvetica; */
 }
 
 body {
@@ -127,7 +128,7 @@ img#headshot {
   left: 10%;
 }*/
 
-.contact {
+.portfolio {
   margin: auto;
 }
 
@@ -204,4 +205,53 @@ blockquote:hover {
   background-color: #06aaaa;
   color: white;
   padding: 5px 10px;
+}
+
+
+/* Portfolio page style */
+
+div.portfolio h1, h2, h3, p {
+  text-align: center;
+}
+
+div.portfolio h1 {
+  padding: 10px;
+font-weight: bold;
+}
+
+div.portfolio h2, h3, p, li {
+  color: #7f7f7f;
+}
+
+div.portfolio .portfolio-list ol {
+  text-align: left;
+  list-style-position: inside;
+  display: inline-block;
+  /* margin: auto; */
+  /* width: 90%; */
+}
+
+div.portfolio p, li {
+  font-size: 1.3em;
+}
+
+div.portfolio .portfolio-list {
+  text-align: center;
+}
+
+div.portfolio h1.not-top {
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+div.portfolio .port-pics {
+  width: 100%;
+}
+
+div.portfolio .port-link a {
+  color: #7f7f7f;
+}
+
+div.portfolio .port-link a:hover {
+  color: #06aaaa;
 }
