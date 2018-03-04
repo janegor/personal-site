@@ -7,6 +7,7 @@
 
 p {
   color: black;
+  text-align: center;
 }
 
 body {
@@ -214,7 +215,7 @@ blockquote:hover {
 
 /* Portfolio page style */
 
-div.portfolio h1, h2, h3, p {
+div.portfolio h1, div.portfolio h2, div.portfolio h3, div.portfolio p {
   text-align: center;
 }
 
@@ -226,6 +227,7 @@ font-weight: bold;
 div.portfolio h2, div.portfolio h3, div.portfolio p, div.portfolio li {
   color: #7f7f7f;
 }
+
 
 div.portfolio .portfolio-list ol {
   text-align: left;
