@@ -5,6 +5,10 @@
   /* font-family: Helvetica; */
 }
 
+p {
+  color: black;
+}
+
 body {
   background-color: #06aaaa;
 
@@ -219,7 +223,7 @@ div.portfolio h1 {
 font-weight: bold;
 }
 
-div.portfolio h2, h3, p, li {
+div.portfolio h2, div.portfolio h3, div.portfolio p, div.portfolio li {
   color: #7f7f7f;
 }
 
