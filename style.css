@@ -7,7 +7,6 @@
 
 p {
   color: black;
-  text-align: center;
 }
 
 body {
@@ -56,6 +55,10 @@ body.inter-pages {
   color: white!important;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#bio-graph {
+  padding-left: 10px;
 }
 
 .content-inside {
@@ -237,7 +240,7 @@ div.portfolio .portfolio-list ol {
   /* width: 90%; */
 }
 
-div.portfolio p, li {
+div.portfolio p, div.portfolio li {
   font-size: 1.3em;
 }
 
