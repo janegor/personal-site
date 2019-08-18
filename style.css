@@ -1,0 +1,266 @@
+/* general style */
+
+* {
+  font-family: "Avenir";
+  /* font-family: Helvetica; */
+}
+
+p {
+  color: black;
+}
+
+body {
+  background-color: #06aaaa;
+
+}
+
+body.inter-pages {
+  background-color: white;
+}
+
+/* landing page */
+
+.landing-page {
+  background-color: #06aaaa;
+  height: 100%;
+}
+
+#content {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.title-name {
+  text-transform: uppercase;
+  font-size: 200px;
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+.bg-dark {
+  background-color: #06aaaa!important;
+}
+
+.bg-light {
+  background-color: white!important;
+  padding-top: 40px;
+  padding-bottom: 20px
+}
+
+.navbar-brand {
+  background-color: #06aaaa!important;
+  padding: 20px;
+  margin-left: 0px;
+  color: white!important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#bio-graph {
+  padding-left: 10px;
+}
+
+.content-inside {
+  position: absolute;
+  top: 150px;
+  margin-left: 0px
+}
+
+.navbar-nav {
+  float: right;
+  margin-left: 60%;
+}
+
+.nav-link {
+  font-size: 25px;
+}
+
+      /*.btn {
+        padding: 0px 25px;
+      }
+
+      .btn-secondary {
+        height: 50px;
+        background-color: #27712D;
+        border: none;
+        margin: 10px;
+        border-radius: 30px;
+      }*/
+
+      /*.btn-secondary:hover {
+        background-color: black;
+        border: none;
+      }*/
+
+/* contact */
+
+div.col-2 {
+  border: 2px solid black;
+  /*padding: 10px;
+  margin: 10px;*/
+  /*height: 100%;*/
+}
+
+div.col-10 {
+  border: 2px solid black;
+  padding: 30px;
+  margin: 10px;
+}
+
+img#headshot {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+}
+
+.contact-info {
+  position: relative;
+  right: -3%;
+}
+
+.contact-info ul#info {
+  list-style-type: none;
+  display: inline;
+}
+
+.contact-info #info li {
+  float: left;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+/*.all-contact-info {
+  position: relative;
+  left: 10%;
+}*/
+
+.portfolio {
+  margin: auto;
+}
+
+/* links page style */
+
+.article-list-item {
+  /*list-style-type: none;*/
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.article-list-item a {
+  color: black;
+}
+
+.article-list-item a:hover {
+  color: #06aaaa;
+}
+
+div.col {
+  border: 2px solid black;
+  padding: 30px;
+  margin: 10px;
+}
+
+.row {
+  margin: 0px 20px;
+}
+
+/* Resume */
+
+.resume p {
+  margin-left: 30px;
+}
+
+.subheading {
+  font-weight: bold;
+}
+
+ul.resume-desc {
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+#download-link {
+  color: black;
+}
+/* Reviews */
+
+#all-recommendations {
+  position: relative;
+  top: 20px;
+}
+
+#recommendations textarea {
+  resize: vertical;
+  width: 70%;
+  display: block;
+}
+
+#recommendations input {
+  display: block;
+}
+
+blockquote {
+  padding: 20px;
+}
+
+blockquote:hover {
+  background-color: #eeeeee;
+}
+
+#submit {
+  background-color: #06aaaa;
+  color: white;
+  padding: 5px 10px;
+}
+
+
+/* Portfolio page style */
+
+div.portfolio h1, div.portfolio h2, div.portfolio h3, div.portfolio p {
+  text-align: center;
+}
+
+div.portfolio h1 {
+  padding: 10px;
+font-weight: bold;
+}
+
+div.portfolio h2, div.portfolio h3, div.portfolio p, div.portfolio li {
+  color: #7f7f7f;
+}
+
+
+div.portfolio .portfolio-list ol {
+  text-align: left;
+  list-style-position: inside;
+  display: inline-block;
+  /* margin: auto; */
+  /* width: 90%; */
+}
+
+div.portfolio p, div.portfolio li {
+  font-size: 1.3em;
+}
+
+div.portfolio .portfolio-list {
+  text-align: center;
+}
+
+div.portfolio h1.not-top {
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+div.portfolio .port-pics {
+  width: 100%;
+}
+
+div.portfolio .port-link a {
+  color: #7f7f7f;
+}
+
+div.portfolio .port-link a:hover {
+  color: #06aaaa;
+}
